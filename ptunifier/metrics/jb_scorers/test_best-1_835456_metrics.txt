@@ -1,0 +1,14 @@
+{
+    "split": "test",
+    "epoch": 0,
+    "scores": {
+        "ROUGEL": 0.25018213941174605,
+        "ROUGE1": 0.3362985201296439,
+        "ROUGE2": 0.13133473500412865,
+        "radgraph_simple": 0.2622963931758993,
+        "radgraph_partial": 0.22193950463288692,
+        "radgraph_complete": 0.15625115871549938,
+        "radentitymatchexact": 0.33358806211620246,
+        "radentitynli": 0.1125834241710976
+    }
+}
