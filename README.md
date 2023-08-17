@@ -108,7 +108,7 @@ root:[data]
 
 ### 3. Download the initialized weights for pre-training
 
-Download the initialized meter weights [here]().
+Download the initialized meter weights [here](https://drive.google.com/file/d/1GucJX0laISLqkTQPfl8zH7x-Gmh3bMLF/view?usp=sharing).
 
 ### 4. Pre-training
 
