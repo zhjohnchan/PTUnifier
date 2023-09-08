@@ -42,7 +42,7 @@ class RadEntityNLI(nn.Module):
                              cache=200000,
                              verbose=False)
 
-        # BertSore
+        # BertScore
         self.bert_scorer = BERTScorer(model_type="distilbert-base-uncased",
                                       num_layers=5,
                                       batch_size=16,
@@ -94,7 +94,7 @@ class RadEntityNLI(nn.Module):
                 entity_ner_r = list(chain.from_iterable(ner_r))
                 total_p = 0
                 for hyp_sentence, hyp_sentence_entities, hyp_f_score in zip(hyp_report, ner_h, f_scores):
-                    # No entites in current sentence
+                    # No entities in current sentence
                     if not hyp_sentence_entities:
                         continue
                     sim_index = torch.argmax(hyp_f_score)
@@ -112,7 +112,7 @@ class RadEntityNLI(nn.Module):
                 entity_ner_h = list(chain.from_iterable(ner_h))
                 total_r = 0
                 for ref_sentence, ref_sentence_entities, ref_f_score in zip(ref_report, ner_r, f_scores.T):
-                    # No entites in current sentence
+                    # No entities in current sentence
                     if not ref_sentence_entities:
                         continue
                     sim_index = torch.argmax(ref_f_score)
