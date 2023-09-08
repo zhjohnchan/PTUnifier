@@ -56,7 +56,7 @@ def cook_refs(refs, eff=None, n=4):  ## lhuang: oracle will call with "average"
     elif eff == "average":
         reflen = float(sum(reflen)) / len(reflen)
 
-    ## lhuang: N.B.: leave reflen computaiton to the very end!!
+    ## lhuang: N.B.: leave reflen computation to the very end!!
 
     ## lhuang: N.B.: in case of "closest", keep a list of reflens!! (bad design)
 
