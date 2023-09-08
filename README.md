@@ -16,8 +16,9 @@ pip install -r requirements.txt
 ```
 
 ## Preparation
-You can either (1) preprocess the data by yourself following the instruction; or (2) directly apply for our preprocessed data [here](https://drive.google.com/drive/folders/1NjXj4ZXKs72sHbgSLVAboYVWJhrgcNwN?usp=sharing) with the **attached** [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/) license (e.g., **a link to the screenshot of the license**) (download the `data` and `downloaded` folder). The project structure should be:
+You can either (1) preprocess the data by yourself following the instruction; or (2) directly apply for our preprocessed data [here](https://drive.google.com/drive/folders/1NjXj4ZXKs72sHbgSLVAboYVWJhrgcNwN?usp=sharing) with the **attached** [PhysioNet](https://physionet.org/content/mimic-cxr-jpg/2.0.0/) license (e.g., **a link to the screenshot of the license**) (download the `data` and `downloaded` folder). **Please make sure you attach the license.**
 
+The project structure should be:
 ```
 root:[.]
 +--ptunifier
