@@ -116,7 +116,7 @@ Download the initialized meter weights [here](https://drive.google.com/file/d/1G
 Now we can start to pre-train the ptunifer model:
 
 ```angular2
-bash run_scripts/pretrain_ptunifer.sh
+bash run_scripts/pretrain.sh
 ```
 
 ## Downstream Evaluation
